@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Catálogo de Productos</title>
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/5.jpg"></a>
+        <h1>Frutas y Verduras del campo</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Frutas y verduras </h1>
+        <div class="catalogo">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="imagen/1.jpg" alt="Producto 1">
+                <div class="producto-info">
+                    <h2>Kilo De Manzana golde</h2>
+                    <p>Dulce y crujiente, rica en fibra y antioxidantes.</p>
+                    <p class="precio">$35.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="imagen/3.jpg" alt="Producto 2">
+                <div class="producto-info">
+                    <h2>Kilo De Fresa  </h2>
+                    <p>Pequeña y jugosa, con un sabor dulce y ligeramente ácido.</p>
+                    <p class="precio">$90.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="imagen/2.jpg" alt="Producto 3">
+                <div class="producto-info">
+                    <h2>Kilo De Uva </h2>
+                    <p>Dulce y versátil, con propiedades antioxidantes.</p>
+                    <p class="precio">$128.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="imagen/R.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Kilo De Pera</h2>
+                    <p>La pera es una fruta jugosa y refrescante, con una textura suave y un sabor dulce con toques ligeramente ácidos.</p>
+                    <p class="precio">$15.00</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="imagen/01.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Kilo de Zanahoria </h2>
+                    <p>Crujiente y dulce, rica en betacarotenos.</p>
+                    <p class="precio">$14.00</p>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="producto">
+                <img src="imagen/02.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Kilo de Espinaca </h2>
+                    <p>Verde y nutritiva, excelente fuente de hierro y fibra.</p>
+                    <p class="precio">$25.00</p>
+                </div>
+            </div>
+            <!-- Producto 7 -->
+            <div class="producto">
+                <img src="imagen/03.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Kilo de Brócoli</h2>
+                    <p> Rico en antioxidantes y fibra, excelente para la salud.</p>
+                    <p class="precio">$30.00</p>
+                </div>
+            </div>
+            <!-- Producto 8 -->
+            <div class="producto">
+                <img src="imagen/04.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Kilo de Tomate </h2>
+                    <p>Jugoso y versátil, fuente de licopeno y vitamina C.</p>
+                    <p class="precio">$18.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2024 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <p>Contacto: FrutasyVerdurasdelcampo@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>
